@@ -37,7 +37,7 @@ const Hero = () => {
         </Link>
       </div>
     </div>
-    <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+  
       <Image
         className="object-cover object-center rounded mx-auto w-[15rem]"
         alt="hero"
@@ -47,7 +47,7 @@ const Hero = () => {
       />
  
     </div>
-  </div>
+ 
 </section>
 
   

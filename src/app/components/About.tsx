@@ -1,4 +1,4 @@
-
+ /* eslint-disable @typescript-eslint/no-unused-vars */
 import { request } from 'http'
 import Image from 'next/image'
 import React from 'react'
