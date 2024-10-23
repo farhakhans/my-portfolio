@@ -1,4 +1,4 @@
-"use client"
+
 import { request } from 'http'
 import Image from 'next/image'
 import React from 'react'
