@@ -1,9 +1,6 @@
- /* eslint-disable @typescript-eslint/no-unused-vars */
-import { request } from 'http'
+
 import Image from 'next/image'
 import React from 'react'
-import { BiFullscreen } from 'react-icons/bi'
-import Home from '../page'
 import Link from 'next/link'
 
 const About = () => {
@@ -18,38 +15,35 @@ const About = () => {
       <h1 className="title-font sm:text-4xl text-5xl mb-5 font-medium text-red-900 py-8 text-center ">
        About me
       </h1>
-      <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+      <div >
       <Image
-        className="object-cover object-center p-3 rounded mx-auto w-[15rem]"
+        className=" w-[15rem] flex justify-center -mr-15"
         alt="hero"
-        width={300}
-        height={300}
+       
         src={require("../../../public/girl image.png")}
       />
       </div>
 
-      <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+      <div >
       <Image
-        className=" mr-11  w-[10rem]  "
+        className="p-1 w-[10rem] mt-5 "
         alt="hero"
-        width={300}
-        height={300}
+       
         src={require("../../../public/flower.gif")}
       />
  
     </div>
-        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+        <div >
       <Image
-        className=" mr-11  w-[25rem] -ml-4 "
+        className="   w-[25rem] -mr-4"
         alt="hero"
-        width={1000}
-        height={1000}
+      
         src={require("../../../public/name2.gif")}
       />
  
     </div>
    
-      <p className="mb-5 leading-relaxed  text-justify-   ">
+      <p className="mb-3 leading-relaxed  text-justify    ">
       I am a passionate web developer and graphic designer with a strong focus on creating visually engaging and functional digital experiences. With expertise in front-end development, I build responsive and user-friendly websites using modern technologies like HTML, CSS, JavaScript, and React. My graphic design skills complement my development work, allowing me to craft clean, aesthetic visuals. 
       I enjoy working on projects that combine creativity and technology to deliver outstanding results
       </p>

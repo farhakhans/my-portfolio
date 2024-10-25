@@ -7,7 +7,7 @@ import React from 'react'
 const Projects = () => {
   return (
     <div id='project'>
-  <section className="text-green-600 body-font bg-pink-100">
+  <section className="text-green-600 body-font bg-sky-100">
   <div className="container px-5 py-24 mx-auto">
     <div className="flex flex-col text-center w-full mb-10">
       <h1 className="sm:text-3xl text-2xl font-medium title-font  text-red-900  ">

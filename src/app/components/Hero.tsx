@@ -1,4 +1,4 @@
-
+"use client"
 import Image from 'next/image'
 import Link from 'next/link';
 import React from 'react'
@@ -23,31 +23,30 @@ const Hero = () => {
 />
        
       </h1>
-      <div className='w-[100px] h-[2px] bg-blue-700'></div>
-      <p className="mb-8 leading-relaxed px-2 text-justify mr-5 ">
+      <div className='w-[100px] h-[2px] bg-blue-700 '></div>
+      <p className="mb-7 leading-relaxed px-2 text-justify mr-8 ">
       Hello! I'm a passionate web developer with a strong foundation in HTML, tailwind CSS, and typescript. I enjoy creating responsive and user-friendly websites that deliver a great experience. With experience in both front-end and back-end development, I can bring ideas to life effectively. I'm always eager to learn new technologies and improve my skills. 
       Let's connect and build something amazing together!
       </p>
-      <div className="flex justify-center">
+      <div>
         <Link href={"#Home"}>
        
-        <button className="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+        <button className="inline-flex  text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg ">
           Home
         </button>
         </Link>
       </div>
     </div>
-  
+    <div >
       <Image
         className="object-cover object-center rounded mx-auto w-[15rem]"
         alt="hero"
-        width={300}
-        height={300}
+        
         src={require("../../../public/girl image.png")}
       />
  
     </div>
- 
+  </div>
 </section>
 
   

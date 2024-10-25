@@ -1,10 +1,9 @@
- /* eslint-disable @typescript-eslint/no-unused-vars */
+
 
 import Link from 'next/link'
 import React from 'react'
 import Image from 'next/image'
 import { AiOutlineCloudDownload } from "react-icons/ai";
-import { FaBeer } from 'react-icons/fa';
 
 
 
@@ -15,7 +14,7 @@ export default function Navebar() {
    <header className="text-red-600 body-font font-bold  ">
   <div className="container mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center">
     <a className="flex title-font font-medium items-center text-red-900 mb-4 md:mb-0">
-      <Image src={require("../../../public/logo7.png")}alt="logo " width={150} height={150} className='w-16'/>
+      <Image src={require("../../../public/logo7.png")}alt="logo " className='w-16'/>
     
     </a>
     
